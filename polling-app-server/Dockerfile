@@ -1,5 +1,5 @@
 #### Stage 1: Build the application
-#FROM openjdk:8-jdk-alpine as build
+#FROM openjdk:8-jdk-alpine as build 1
 FROM nexus.codep.inetum.world/dicodep-openjdk8  as build
 
 # Set the current working directory inside the image
